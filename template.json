@@ -1,0 +1,495 @@
+{
+  "page": {
+    "width": 595.25,
+    "height": 841.88
+  },
+  "template": "assets/template.pdf",
+  "styles": {
+    "textColor": "#ffffff",
+    "accentColor": "#6ad6ff",
+    "font": "Helvetica",
+    "boldFont": "Helvetica-Bold"
+  },
+  "fields": {
+    "data1": {
+      "label": "Data giorno",
+      "type": "date",
+      "x": 210.29,
+      "y": 306.72,
+      "width": 350.86,
+      "height": 47.26,
+      "fontSize": 33,
+      "align": "right",
+      "bold": true,
+      "outputFormat": "D MMMM YYYY"
+    },
+    "orario1": {
+      "label": "Orario 1",
+      "type": "select",
+      "joinWith": "att1",
+      "options": "time_0730_2300_30min"
+    },
+    "att1": {
+      "label": "Attività 1",
+      "type": "select_with_detail_and_other",
+      "target": "orario1_att1",
+      "placeholder": "Scrivi attività personalizzata",
+      "options": [
+        "Arrivo",
+        "Arrivo e welcome coffee",
+        "Visita all'Experience Center",
+        "Pranzo",
+        "Attività ludica",
+        "Cena",
+        "Pausa caffè",
+        "Chiusura",
+        "Altro"
+      ],
+      "detailWhen": "Attività ludica",
+      "detailOptions": [
+        {
+          "label": "generica",
+          "output": "Attività esterna"
+        },
+        {
+          "label": "ADI Design Museum",
+          "output": "ADI Design Museum"
+        },
+        {
+          "label": "San Fedele chiesa e museo",
+          "output": "San Fedele chiesa e museo"
+        },
+        {
+          "label": "Triennale museo design",
+          "output": "Triennale museo design"
+        },
+        {
+          "label": "Labirinto Pomodoro",
+          "output": "Labirinto Pomodoro"
+        },
+        {
+          "label": "MUDEC",
+          "output": "MUDEC"
+        },
+        {
+          "label": "Battello sul naviglio",
+          "output": "Battello sul naviglio"
+        },
+        {
+          "label": "Highline Milano",
+          "output": "Highline Milano"
+        },
+        {
+          "label": "San Siro museum",
+          "output": "San Siro museum"
+        },
+        {
+          "label": "ARMANI silos",
+          "output": "ARMANI silos"
+        },
+        {
+          "label": "Pizza making",
+          "output": "Pizza making"
+        },
+        {
+          "label": "Dromokart",
+          "output": "Dromokart"
+        },
+        {
+          "label": "Mercatino cocktail game",
+          "output": "Mercatino cocktail game"
+        }
+      ]
+    },
+    "orario2": {
+      "label": "Orario 2",
+      "type": "select",
+      "joinWith": "att2",
+      "options": "time_0730_2300_30min"
+    },
+    "att2": {
+      "label": "Attività 2",
+      "type": "select_with_detail_and_other",
+      "target": "orario2_att2",
+      "placeholder": "Scrivi attività personalizzata",
+      "options": [
+        "Arrivo",
+        "Arrivo e welcome coffee",
+        "Visita all'Experience Center",
+        "Pranzo",
+        "Attività ludica",
+        "Cena",
+        "Pausa caffè",
+        "Chiusura",
+        "Altro"
+      ],
+      "detailWhen": "Attività ludica",
+      "detailOptions": [
+        {
+          "label": "generica",
+          "output": "Attività esterna"
+        },
+        {
+          "label": "ADI Design Museum",
+          "output": "ADI Design Museum"
+        },
+        {
+          "label": "San Fedele chiesa e museo",
+          "output": "San Fedele chiesa e museo"
+        },
+        {
+          "label": "Triennale museo design",
+          "output": "Triennale museo design"
+        },
+        {
+          "label": "Labirinto Pomodoro",
+          "output": "Labirinto Pomodoro"
+        },
+        {
+          "label": "MUDEC",
+          "output": "MUDEC"
+        },
+        {
+          "label": "Battello sul naviglio",
+          "output": "Battello sul naviglio"
+        },
+        {
+          "label": "Highline Milano",
+          "output": "Highline Milano"
+        },
+        {
+          "label": "San Siro museum",
+          "output": "San Siro museum"
+        },
+        {
+          "label": "ARMANI silos",
+          "output": "ARMANI silos"
+        },
+        {
+          "label": "Pizza making",
+          "output": "Pizza making"
+        },
+        {
+          "label": "Dromokart",
+          "output": "Dromokart"
+        },
+        {
+          "label": "Mercatino cocktail game",
+          "output": "Mercatino cocktail game"
+        }
+      ]
+    },
+    "orario3": {
+      "label": "Orario 3",
+      "type": "select",
+      "joinWith": "att3",
+      "options": "time_0730_2300_30min"
+    },
+    "att3": {
+      "label": "Attività 3",
+      "type": "select_with_detail_and_other",
+      "target": "orario3_att3",
+      "placeholder": "Scrivi attività personalizzata",
+      "options": [
+        "Arrivo",
+        "Arrivo e welcome coffee",
+        "Visita all'Experience Center",
+        "Pranzo",
+        "Attività ludica",
+        "Cena",
+        "Pausa caffè",
+        "Chiusura",
+        "Altro"
+      ],
+      "detailWhen": "Attività ludica",
+      "detailOptions": [
+        {
+          "label": "generica",
+          "output": "Attività esterna"
+        },
+        {
+          "label": "ADI Design Museum",
+          "output": "ADI Design Museum"
+        },
+        {
+          "label": "San Fedele chiesa e museo",
+          "output": "San Fedele chiesa e museo"
+        },
+        {
+          "label": "Triennale museo design",
+          "output": "Triennale museo design"
+        },
+        {
+          "label": "Labirinto Pomodoro",
+          "output": "Labirinto Pomodoro"
+        },
+        {
+          "label": "MUDEC",
+          "output": "MUDEC"
+        },
+        {
+          "label": "Battello sul naviglio",
+          "output": "Battello sul naviglio"
+        },
+        {
+          "label": "Highline Milano",
+          "output": "Highline Milano"
+        },
+        {
+          "label": "San Siro museum",
+          "output": "San Siro museum"
+        },
+        {
+          "label": "ARMANI silos",
+          "output": "ARMANI silos"
+        },
+        {
+          "label": "Pizza making",
+          "output": "Pizza making"
+        },
+        {
+          "label": "Dromokart",
+          "output": "Dromokart"
+        },
+        {
+          "label": "Mercatino cocktail game",
+          "output": "Mercatino cocktail game"
+        }
+      ]
+    },
+    "orario4": {
+      "label": "Orario 4",
+      "type": "select",
+      "joinWith": "att4",
+      "options": "time_0730_2300_30min"
+    },
+    "att4": {
+      "label": "Attività 4",
+      "type": "select_with_detail_and_other",
+      "target": "orario4_att4",
+      "placeholder": "Scrivi attività personalizzata",
+      "options": [
+        "Arrivo",
+        "Arrivo e welcome coffee",
+        "Visita all'Experience Center",
+        "Pranzo",
+        "Attività ludica",
+        "Cena",
+        "Pausa caffè",
+        "Chiusura",
+        "Altro"
+      ],
+      "detailWhen": "Attività ludica",
+      "detailOptions": [
+        {
+          "label": "generica",
+          "output": "Attività esterna"
+        },
+        {
+          "label": "ADI Design Museum",
+          "output": "ADI Design Museum"
+        },
+        {
+          "label": "San Fedele chiesa e museo",
+          "output": "San Fedele chiesa e museo"
+        },
+        {
+          "label": "Triennale museo design",
+          "output": "Triennale museo design"
+        },
+        {
+          "label": "Labirinto Pomodoro",
+          "output": "Labirinto Pomodoro"
+        },
+        {
+          "label": "MUDEC",
+          "output": "MUDEC"
+        },
+        {
+          "label": "Battello sul naviglio",
+          "output": "Battello sul naviglio"
+        },
+        {
+          "label": "Highline Milano",
+          "output": "Highline Milano"
+        },
+        {
+          "label": "San Siro museum",
+          "output": "San Siro museum"
+        },
+        {
+          "label": "ARMANI silos",
+          "output": "ARMANI silos"
+        },
+        {
+          "label": "Pizza making",
+          "output": "Pizza making"
+        },
+        {
+          "label": "Dromokart",
+          "output": "Dromokart"
+        },
+        {
+          "label": "Mercatino cocktail game",
+          "output": "Mercatino cocktail game"
+        }
+      ]
+    },
+    "orario5": {
+      "label": "Orario 5",
+      "type": "select",
+      "joinWith": "att5",
+      "options": "time_0730_2300_30min"
+    },
+    "att5": {
+      "label": "Attività 5",
+      "type": "select_with_detail_and_other",
+      "target": "orario5_att5",
+      "placeholder": "Scrivi attività personalizzata",
+      "options": [
+        "Arrivo",
+        "Arrivo e welcome coffee",
+        "Visita all'Experience Center",
+        "Pranzo",
+        "Attività ludica",
+        "Cena",
+        "Pausa caffè",
+        "Chiusura",
+        "Altro"
+      ],
+      "detailWhen": "Attività ludica",
+      "detailOptions": [
+        {
+          "label": "generica",
+          "output": "Attività esterna"
+        },
+        {
+          "label": "ADI Design Museum",
+          "output": "ADI Design Museum"
+        },
+        {
+          "label": "San Fedele chiesa e museo",
+          "output": "San Fedele chiesa e museo"
+        },
+        {
+          "label": "Triennale museo design",
+          "output": "Triennale museo design"
+        },
+        {
+          "label": "Labirinto Pomodoro",
+          "output": "Labirinto Pomodoro"
+        },
+        {
+          "label": "MUDEC",
+          "output": "MUDEC"
+        },
+        {
+          "label": "Battello sul naviglio",
+          "output": "Battello sul naviglio"
+        },
+        {
+          "label": "Highline Milano",
+          "output": "Highline Milano"
+        },
+        {
+          "label": "San Siro museum",
+          "output": "San Siro museum"
+        },
+        {
+          "label": "ARMANI silos",
+          "output": "ARMANI silos"
+        },
+        {
+          "label": "Pizza making",
+          "output": "Pizza making"
+        },
+        {
+          "label": "Dromokart",
+          "output": "Dromokart"
+        },
+        {
+          "label": "Mercatino cocktail game",
+          "output": "Mercatino cocktail game"
+        }
+      ]
+    },
+    "data2": {
+      "label": "RSVP entro",
+      "type": "date",
+      "x": 242.29,
+      "y": 35.64,
+      "width": 318.86,
+      "height": 36.35,
+      "fontSize": 24,
+      "align": "right",
+      "bold": true,
+      "outputFormat": "RSVP entro il D MMMM",
+      "prefix": "RSVP entro il "
+    }
+  },
+  "drawFields": {
+    "orario1_att1": {
+      "x": 94.86,
+      "y": 192.97,
+      "width": 466.29,
+      "height": 31.5,
+      "fontSize": 20,
+      "align": "right"
+    },
+    "orario2_att2": {
+      "x": 94.86,
+      "y": 169.99,
+      "width": 466.29,
+      "height": 31.5,
+      "fontSize": 20,
+      "align": "right"
+    },
+    "orario3_att3": {
+      "x": 94.86,
+      "y": 147.01,
+      "width": 466.29,
+      "height": 31.5,
+      "fontSize": 20,
+      "align": "right"
+    },
+    "orario4_att4": {
+      "x": 94.86,
+      "y": 122.89,
+      "width": 466.29,
+      "height": 31.5,
+      "fontSize": 20,
+      "align": "right"
+    },
+    "orario5_att5": {
+      "x": 94.86,
+      "y": 98.76,
+      "width": 466.29,
+      "height": 31.5,
+      "fontSize": 20,
+      "align": "right"
+    }
+  },
+  "fixedFields": {
+    "luogo1": {
+      "label": "Luogo",
+      "type": "text",
+      "x": 94.86,
+      "y": 267.99,
+      "width": 466.29,
+      "height": 47.26,
+      "fontSize": 33,
+      "align": "right",
+      "placeholder": "Es. Milano",
+      "value": "Via Tortona 31, Milano"
+    }
+  },
+  "multiDay": {
+    "enabled": true,
+    "maxDays": 2,
+    "sameTemplateForEachDay": true,
+    "day2Defaults": {
+      "data1": "next_day_from_day1",
+      "data2": "same_as_day1"
+    }
+  }
+}
